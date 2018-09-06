@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+
+.Header {
+  font-family: 'Nosifer', cursive;
+  background-color: #739cef;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Question {
+  font-size: 1.5em;
+}
+
+.Response {
+  font-family: 'Nosifer', cursive;
+  font-size: 1.5em;
+}
+
+.Content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+}
+
+.Image {
+  flex-grow: 1;
+  width: 40%;
+  height: 40%;
+  /* height: 400px;
+  width: 800px; */
+}
